@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudos classes</title>
+    <style>
+        div:hover > p {
+        display: block;
+        background-color: #958d97;
+        width: 100px;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover {
+            color: #d400ff;
+        }
+    </style>
+</head>
+<body>
+  <h1>exemplo</h1>
+  <p>menu abaixo</p>
+  <div>MENU
+    <p>text</p>
+  </div>  
+</body>
+</html>

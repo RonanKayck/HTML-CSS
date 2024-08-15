@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(20, 20, 20), rgb(48, 56, 54));
+    color: aliceblue;
+    text-align: center;
+    height: 80px;
+}
+
+
+body {
+   background-color: rgb(34, 34, 34);
+}
+
+li {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}

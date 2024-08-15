@@ -1,0 +1,11 @@
+ 
+body{
+    background-image: linear-gradient( to right, rgb(123, 224, 174),rgb(103, 189, 16));
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+a{
+color: rgb(255, 0, 128);
+}
