@@ -13,13 +13,13 @@ html {
 }
 
 body {
-    background: black url(../imagens/back-phone.jpg) no-repeat;
-    background-size: contain;
+    background: url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
     background-position: center center;
 }
 
 main {
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.253);
     width: 90vw;
     margin: auto;
     margin-top: 20px;

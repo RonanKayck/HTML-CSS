@@ -29,7 +29,10 @@
 @media screen and (min-width: 768px) and (max-width:992px) { /*Tablet*/
    body {
     background-image: url(../imagens/back-tablet.jpg);
-    background-size: cover;
+   }
+
+   main{
+    width: 500px;
    }
         img#phone {display: none;}
         img#tablet {display: block;}
@@ -40,10 +43,16 @@
 
 @media screen and (min-width: 992px) and (max-width:1200px) { /*Desktop*/
     body {
-        background: url(../imagens/back-pc.jpg);
+        background: url(../imagens/back-pc.jpg)no-repeat;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-position: center center;
+
     }
+
+    main {
+        width: 600px;
+    }
+
         img#phone {display: none;}
         img#tablet {display: none;}
         img#print {display: none;}
@@ -54,8 +63,12 @@
 @media screen and (min-width: 1200px) { /*Grandes telas*/
     body {
         background: url(../imagens/back-tv.jpg);
-        background-size: cover;
     }
+
+    main {
+        width: 700px;
+    }
+
         img#phone {display: none;}
         img#tablet {display: none;}
         img#print {display: none;}
