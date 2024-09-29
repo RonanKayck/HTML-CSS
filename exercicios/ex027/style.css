@@ -18,17 +18,22 @@ header {
     background-color: gray;
     color: white;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    border: 1px dotted black;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.377);
 }
 
 header nav {
-    border: 1px dotted black;
-    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
     
-
 }
 
 nav a {
@@ -36,14 +41,16 @@ nav a {
     color: white;
     background-color: black;
     padding: 10px;
-    border-radius: 7px; 
+    margin: 5px;
+    border-radius: 7px;
+    text-align: center;
     
 }
 
 nav a:hover {
-    background-color: #bebebe;
+    background-color: #ffffff;
     color: black;
-    transition-duration: .5s;
+    transition: background-color .5s;
 
 }
 
