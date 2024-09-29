@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div#conteiner {
+            background-color: lightsalmon;
+            height: 150px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div#filho {
+            background-color: aquamarine;
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div id="filho"> 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dicta autem, possimus doloremque debitis ipsum. Alias, dolore delectus et aliquam minus maxime velit a blanditiis magnam sit aut culpa odit.</div>
+        <div id="filho"> 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam animi iure sequi id alias recusandae earum neque iusto perferendis nemo voluptates veritatis, beatae veniam similique laborum repellendus eveniet eaque officiis?</div>
+        <div id="filho"> 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eum nihil? Tenetur voluptatem quas vitae voluptatibus adipisci nisi soluta nobis quibusdam expedita distinctio. Tenetur, eaque! Eos sequi eveniet suscipit aperia</div>
+        <div id="filho" class="height">EX DE BLOCO D</div>
+    </div>
+</body>
+</html>

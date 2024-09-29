@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div#conteiner {
+            background-color: #202020;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: stretch;
+            height: 600px;
+        }
+
+        div.filho {
+            background-color: #a3a3a3;
+            border: 1px solid black;
+            text-align: center;
+            padding: 40px;
+            
+        }
+
+        div#a {
+            align-self: auto;
+            background-color: black;
+        }
+        div#b {
+            align-self: flex-start;
+            background-color: #8b008b;
+            color: #8b008b;
+        }
+        div#c {
+            align-self: center;
+            background-color: #deb887;
+            color: #deb887;
+        }
+        div#d {
+            align-self: center;
+            background-color: #deb887;
+            color: #deb887;
+        }
+        div#e {
+            align-self: center;
+            background-color: #deb887;
+            color: #deb887;
+        }
+        div#f {
+            align-self: flex-start;
+            background-color: #8b008b;
+            color: #8b008b;
+        }
+        div#g {
+            align-self: auto;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div class="filho" id="a">a</div>
+        <div class="filho" id="b">b</div>
+        <div class="filho" id="c">c</div>
+        <div class="filho" id="d">d</div>
+        <div class="filho" id="e">e</div>
+        <div class="filho" id="f">f</div>
+        <div class="filho" id="g">g</div>
+    </div>
+</body>
+</html>

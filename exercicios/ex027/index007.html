@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div#conteiner {
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: stretch;
+            height: 400px;
+        }
+
+        div.filho {
+            background-color: aquamarine;
+            border: 1px solid black;
+            text-align: center;
+            padding: 40px;
+            
+        }
+
+        div#a {
+            order: -2;
+        }
+        div#b {
+            order: -3;
+        }
+        div#c {
+            order: 1;
+        }
+        div#d {
+            order: 2;
+        }
+        div#e {
+            order: 0;
+        }
+        div#f {
+           order: -1; 
+        }
+        div#g {
+            order: -4;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div class="filho" id="a">A</div>
+        <div class="filho" id="b">B</div>
+        <div class="filho" id="c">C</div>
+        <div class="filho" id="d">D</div>
+        <div class="filho" id="e">E</div>
+        <div class="filho" id="f">F</div>
+        <div class="filho" id="g">G</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div#conteiner {
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.filho {
+            background-color: aquamarine;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#bay {
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+
+        div#bey {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+        
+        div#boy {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+      
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div class="filho" id="bey">A</div>
+        <div class="filho" id="bay">B</div>
+        <div class="filho" id="boy">C</div>
+    </div>
+</body>
+</html>
