@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+    @media screen and (min-width: 768px) {
+    
+    span#habu {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        padding: 6px;
+    }
+    
+    menu a {
+        display: inline-block;
+        
+    }
+
+    main {
+        width: 750px;
+        
+    }
+}
