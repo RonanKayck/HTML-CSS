@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trei</title>
+    <style>
+        div.pai {
+            background-color: lightblue;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 500px;
+        }
+
+        div.filho {
+            background-color: lightcyan;
+            border: 1px solid black;
+            padding: 10px;
+            align-self: flex-start;
+            flex-shrink: 1;
+            flex-grow: 0;
+            
+        }
+
+        div#oter {
+            flex-shrink: 1;
+            flex-grow: 0;
+            flex-basis: 150px;
+            align-self: flex-start;
+        }
+
+        div#filh {
+            flex-shrink: 1;
+            flex-grow: 3;
+            align-self: stretch;
+        }
+
+
+        div#sla {
+            flex-shrink: 1;
+            flex-grow: 0;
+            flex-basis: 290px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho" id="oter">menu</div>
+        <div class="filho" >opção 1</div>
+        <div class="filho" id="filh">Opção 2</div>
+        <div class="filho" id="sla">Opção 3</div>
+    </div>
+</body>
+</html>

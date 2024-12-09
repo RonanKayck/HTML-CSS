@@ -1,71 +1,124 @@
 @charset "UTF-8";
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: coral;
-}
-
-header {
-    background-color: lightpink;
-}
-
-header h1 {
-    text-align: center;
-    padding: 20px;
-}
-
-span#habu {
-    display: block;
-    text-align: center;
-    background-color: lightcoral;
-    border: 1px solid black;
-    padding: 10px;
-}
-
-span#habu:hover {
-    background-color: #b34141;
-    cursor: pointer;
-}
-
-menu  {
-    display: none;
-}
-
-menu a {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    background-color: lightcoral;
-    border: 1px solid black;
-    padding: 10px;
-    color: #ffffff
-}
-
-a:hover {
-    background-color: #b97777 ;
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+    
 }
 
 main {
-    background-color: #cfb4b4;
-    width: 80vw;
-    margin: auto;
-    margin-top: 10px;
-    border-radius: 20px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
-article p {
+div#forulario h1 {
+    margin-bottom: 10px;
     text-align: center;
+}
+
+div#forulario p {
     text-align: justify;
+    font-size: 0.8em;
+
+}
+
+div.capo {
+    background-color: #5f2c82;
+    height: 40px;
+    border: 3px solid #5f2c82;
+    border-radius: 8px;
+    margin: 5px 0px;
+
+}
+
+label {
+    display: none;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    width: 270px;
+    height: 500px;
+    overflow: hidden;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: url(imagens/paisagem.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#forulario {
+    display: block;
     padding: 10px;
 }
 
-article h2 {
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: #ffffff;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #388380;
+}
+
+div#forulario a {
+    text-decoration: none;
+    display: block;
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    background-color: #ffffff;
+    color: black;
+    height: 40px;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    padding-top: 7px;
+    margin-top: 7px;
+   
+}
+
+div#forulario a:hover {
+    background-color: #5ac5c2;
+    color: #ffffff;
+}
+
+input {
+    background-color: #5ac5c2;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+div.capo input:focus-within {
+    background-color: #ffffff;
+}
+
+span {
+    
+    color: #ffffff;
 }

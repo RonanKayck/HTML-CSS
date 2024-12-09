@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino</title>
+</head>
+<style>
+    div#conteiner {
+        background-color: aqua;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+        display: flex;
+    }
+
+    div.itens {
+        background-color: aquamarine;
+        border: 1px solid black;
+    }
+
+    div#cxb {
+        align-self: stretch;
+        width: 500px;
+        text-align: center;
+
+    }
+
+</style>
+<body>
+    <div id="conteiner">
+        <div class="itens">ex de bloco A</div>
+        <div class="itens" id="cxb">ex de bloco B</div>
+        <div class="itens">ex de bloco C</div>
+    </div>
+</body>
+</html>
