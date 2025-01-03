@@ -1,0 +1,46 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/pexels-therato-1933318.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1500px;
+}
+
+main {
+    background-color: #ffffff2c;
+    border-radius: 20px;
+    width: 300px;
+    height: 320px;
+    margin: auto;
+    position: relative;
+}
+
+main input {
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+input#but {
+    background-color: #16b330;
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 7px;
+}
+
+input#but:hover {
+    background: #0b5e19;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+main h2 {
+    text-align: center;
+    padding: 10px;
+    color: #16b330;
+}
+
+main p {
+    text-indent: 10px;
+    color: white;
+}

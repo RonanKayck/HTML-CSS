@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+
+header {
+    background-color: aqua;
+}
+
+html {
+    background-image: url(imagens/pexels-therato-1933318.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+}
+
+main {
+    background-color: rgba(55, 202, 75, 0);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+main h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.623);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main p.ao {
+    padding-left: 20px;
+    color: white;
+    padding-top: 7px;
+}
+
+
+ main p#entrar > input {
+    background-color: greenyellow;
+    width: 200px;
+    margin: auto;
+    display: block;
+    height: 40px;
+    border-radius: 7px;
+}
+
+main p#entrar {
+    padding-top: 30px;
+}
+
+main p#entrar > input:hover {
+    background-color: rgb(116, 168, 37);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+}

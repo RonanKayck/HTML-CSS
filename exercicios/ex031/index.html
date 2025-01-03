@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+
+        main {
+            display: flex;
+            padding: 120px;
+            background-color: black;
+        }
+        div#red {
+            background-image: linear-gradient(red, orange);
+            width: 100px;
+            height: 500px;
+            border-radius: 20px;
+            margin-right: 60px;
+        }
+
+        div#red:hover {
+            width: 250px;
+            transition: 0.7s;
+        }
+
+        div#gren {
+            background-image: linear-gradient(rgb(0, 255, 0), green);
+            width: 100px;
+            height: 500px;
+            border-radius: 20px;
+        }
+
+        div#gren:hover {
+            width: 250px;
+            transition: 0.7s;
+        }
+
+        div#blue {
+            background-image: linear-gradient(blue, rgb(0, 174, 255));
+            width: 100px;
+            height: 500px;
+            border-radius: 20px;
+            margin-left: 60px;
+        }
+
+        div#blue:hover {
+            width: 250px;
+            transition: 0.7s;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="red">.</div>
+        <div id="gren">.</div>
+        <div id="blue"></div>
+    </main>
+</body>
+</html>

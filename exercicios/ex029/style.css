@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: #aaaaaa;
+}
+
+header {
+    background-color: black;
+    height: 130px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 230px;
+    background-color: #00000065;
+}
+
+section.img {
+    background-color: aqua;
+    background-image: url(imagens/pexels-therato-1933318.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
